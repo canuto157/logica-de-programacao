@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+var x = 1
+var y = 2
+var nome = "canuto";
+console.log(` o usuario ${nome} tem nota ${x+y}`);
