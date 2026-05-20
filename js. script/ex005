@@ -1,0 +1,9 @@
+var numero = 51;
+var impar = 1, 3,5,7,9;
+var par = ,0,2,4,6,8,;
+console.log(impar )
+if ( numero% 2 == 0){
+    console.log('o numero ${numero} e par.')
+} else {
+    console.log('o numero ${numero} e impar.')
+}

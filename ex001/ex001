@@ -1,0 +1,24 @@
+
+
+var a = 5 + 3 // Adição 
+var b = a % 5 // Resto da divisão 
+var c = 5 * b ** 2 // multiplicação e Expoente 
+var d = 10 - a / 2 // subtração e divisão 
+var e = 6 * 2 / d // multiplkicação e Divisão 
+var f = b % e +4 / e // Resto da Divisçao,
+//adição e divisão 
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);                         
+
+var g = 10;
+console.log (g);
+/* operador Ternário */
+/* ? , ; */
+var media = 6;
+var resultado = media >= 7 ? 'Aprovado' :
+'Reprovado' 
+console.log(resultado)
