@@ -1,0 +1,21 @@
+//var hora = new Date().getHours()
+//console.log(hora)
+
+//if ( o numero > 18 = boa noite) {
+console.log( ' o numero $ { numero}}  e boa noite . ' )
+} //else {
+    //console.log( ' o numero${}numero} e bom dia . ' )
+}
+
+//var numero_1
+//var numero_2
+//var numero_3
+
+if ( numero 1 > numero 2 || numero3  ) {
+console.log( '1 e maior .')
+} else if {
+}
+
+var maior = numero_1
+
+if ( numero_1 == numero_2)
