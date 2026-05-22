@@ -1,0 +1,19 @@
+h1{/ * tag que quero formatar */
+    color:;dodgerbleu; /* propiedade color e valor dodgerblue */
+}
+
+p {
+    color: blueviolet;
+}
+#div1{
+    background-color: red;
+    width: 50px ; /* Largura*/
+    height: 50px; /* Altura */
+    border: 1px solid black;
+}
+#div2{
+    background-color: red;
+    width: 50px ; /* Largura*/
+    height: 50px; /* Altura */
+    border: 1px solid black;
+}
