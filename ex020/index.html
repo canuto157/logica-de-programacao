@@ -6,43 +6,45 @@
     <title>Doação de sangue</title>
 </head>
 <body>
+    <form action="" onsubmit="verificar"(event)>
     <!--input da data de nacimento-->
     <p>
 <label for="nascimento">Qual sua Data de Nascimento?</label>
-<input type="date" name="nascimento" id="nascimento">
+<input type="date" name="nascimento" id="nascimento" required>
     </p>
 
     <!-- Entrada - Possui alguma Doença?-->
      <p>
         <label for="">Possui alguma doença?</label>
-        <input type="radio" name="sick" id="inputYesSick" value="yes">
+        <input type="radio" name="sick" id="inputYesSick" value="yes" required>
         <label for="inputYesSick">sim</label>
-        <input type="radio" name="sick" id="inputNoSick" value="no" 
+        <input type="radio" name="sick" id="inputNoSick" value="no" required 
         <label for="inputNoSick">Nao</label>
      <p>
      <!-- Entrada -Peso atual-->
       
        </p> <label for="peso">Peso atual</label>
-        <input type="number" id="peso"
+        <input type="number" id="peso" required
     <p></p>
 <!--Entrada - Possui tatuagem recente?-->
 <p>
     <label for="">Possui tatuagem recente?</label>
-        <input type="radio" name="tattoo" id="inputyestattoo" value="yes">
+        <input type="radio" name="tattoo" id="inputyestattoo" value="yes" required>
         <label for="inputYestattoo">sim</label>
-        <input type="radio" name="tattoo" id="inputNotattoo" value="no">
+        <input type="radio" name="tattoo" id="inputNotattoo" value="no" required>
         <label for="inputNotattoo">Nao</label>
 </p>
 
 <!--Entrada- Medicação-->
 <p>
     <label for="">Esta tomando algum medicamento?</label>
-        <input type="radio" name="medicine" id="inputyesmedicine" value="yes">
+        <input type="radio" name="medicine" id="inputyesmedicine" value="yes" required>
         <label for="inputYesmedicine">sim</label>
-        <input type="radio" name="medicine" id="inputNomedicine" value="no">
+        <input type="radio" name="medicine" id="inputNomedicine" value="no" required>
         <label for="">Nao</label>
 </p>
-<input type="button" value="verificar" onclick="verificar()">
+<input type="submit" value="verificar">
+<input type="button" value="verificar" onclick="verificar()" required>
 <p id="resultado"</p>
     <script src="script.js"></script>
 </body>
